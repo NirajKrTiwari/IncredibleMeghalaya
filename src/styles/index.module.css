@@ -1,0 +1,24 @@
+/* .heroImage
+{
+    aspect-ratio: 3/1;
+} */
+
+.Mobile
+{
+  display: none;
+}
+.Desktop
+{
+  display: block;
+}
+@media screen and (max-width: 640px){
+  .Desktop
+  {
+    display: none;
+  }
+  .Mobile
+  {
+    display: block;
+  }
+
+  }

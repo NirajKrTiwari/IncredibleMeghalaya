@@ -1,52 +1,24 @@
-import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
-
-import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import logo from './logo.svg';
 import './App.css';
-
-const App = () => (
-  <div className="app">
-    <div className="navbar">
-      <Navbar />
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Hero from './components/Hero';
+import Navigation from './components/Navigation';
+import Places from './components/Places';
+import Category from './components/Category';
+import Footer from "./components/Footer"
+import About from './components/About';
+function App() {
+  return (
+    <div className="App">
+      <Navigation/>
+      <Hero/>
+      <Category/>
+      <Places/>
+      <About/>
+      {/* <Footer/> */}
     </div>
-    <div className="main">
-      <Layout>
-        <div className="routes">
-          <Switch>
-            <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route exact path="/exchanges">
-              <Exchanges />
-            </Route>
-            <Route exact path="/cryptocurrencies">
-              <Cryptocurrencies />
-            </Route>
-            <Route exact path="/crypto/:coinId">
-              <CryptoDetails />
-            </Route>
-            <Route exact path="/news">
-              <News />
-            </Route>
-          </Switch>
-        </div>
-      </Layout>
-      <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © {new Date().getFullYear()} 
-          <Link to="/">
-            <span> CryptoInsight</span>
-          </Link> <br />
-          Design and Developed By Niraj
-        </Typography.Title>
-        <Space>
-          <Link to="/">Home</Link>
-          <Link to="/exchanges">Exchanges</Link>
-          <Link to="/news">News</Link>
-        </Space>
-      </div>
-    </div>
-  </div>
-);
+  );
+}
 
 export default App;
