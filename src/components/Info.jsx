@@ -1,6 +1,7 @@
-import Img from "../Assets/KrangSuri.jpg"
 import css from "../styles/Info.module.css"
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
+import { useState } from 'react';
+import { useEffect } from 'react';
 export default function Info()
 {
     const url = window.location.href;
@@ -58,12 +59,15 @@ export default function Info()
             desc:"At a distance of 4 km from Cherrapunjee Bus Stop, Nohsngithiang Falls is a picturesque waterfall located at Mawsmai village in East Khasi Hills district of Meghalaya. Also known as Seven Sister Falls and Mawsmai Falls, it is one of the tallest waterfalls in India and among the major places to visit in Cherrapunjee. Located in the wettest place on Earth, Cherrapunjee, Nohsngithiang Falls is a seven segmented waterfall that cascades down from a height of 315 m (1,033 feet) and has an average width of 70 m (230 feet). The falls plunges over the top of limestone cliffs of the Khasi Hills only during the rainy season. The seven segments of the waterfalls symbolize the seven sister states in northeast namely Assam, Arunachal Pradesh, Manipur, Nagaland, Tripura, Mizoram and Meghalaya. The best time to visit this place is during the monsoon, when the streams are flooded with water and flow down rapidly forming a perennial rainbow, which gives the spectacular views for the tourists. One can get the magnificent view of the falls from the viewpoint situated at Mawsmai village as there is no possibility to get into the water. Tourist can also view the falls from the Eco Park which has been constructed on a plateau on top of the falls."
         },
     ]
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        }, [])
     return(
         <>
             {/* <h1>{value2}</h1> */}
             {
                 data.map(val=>(
-            val.title==value2 && (
+            val.title===value2 && (
             <div className={css.Container}>
                 <div className={css.Image}>
                     <img src={val.image1} alt=""></img>

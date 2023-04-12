@@ -1,0 +1,72 @@
+.content
+{
+    padding: 1rem 1rem 0 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #a19898;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content:hover
+{
+    box-shadow: 0 0 10px #a19898;
+    transform: scale(1.05);
+}
+.contentImage
+{
+    width: 25vw;
+    height: 29vh;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.contentTitle
+{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+@media screen and (min-width: 641 ) and (max-width: 840px){
+    .contentImage
+{
+    width: 35vw;
+    height: 18vh;
+}
+h2
+{
+    padding: 1.5rem 0;
+}
+.container
+{
+    gap: 2rem;
+}
+.MainContainer
+{
+    margin: 2rem 0;
+}
+}
+@media screen and (max-width: 640px){
+    .contentImage
+{
+    width: 75vw;
+    height: 22vh;
+}
+.container
+{
+    gap: 1rem;
+}
+}

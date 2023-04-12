@@ -18,6 +18,9 @@
   float: left;
   width: 50%;
 }
+h3{
+  font-size: 1.2rem;
+}
 @media screen and (max-width: 640px){
   .container{
     display: block;
@@ -52,6 +55,7 @@
 }
 
 .content {
+  cursor: pointer;
   position: relative;
   width: 90%;
   max-width: 400px;
@@ -86,6 +90,7 @@
 }
 
 .contentDetails {
+  
   position: absolute;
   text-align: center;
   padding-left: 1em;

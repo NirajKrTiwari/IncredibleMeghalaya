@@ -34,9 +34,9 @@ export default function Category() {
 
     //send value to other component List using Navigatin query
     const navigate = useNavigate();
-    // if(value !== ""){
-    //     navigate(`/Info?${value}`)
-    // }
+    if(value !== ""){
+        navigate(`/District?${value}`)
+    }
     
     return (
         <div id="category" className={css.categoryContainer} style={{paddingBottom:"1rem"}}>

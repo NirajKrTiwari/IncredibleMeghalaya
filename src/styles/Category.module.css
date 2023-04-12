@@ -8,6 +8,7 @@
 .categoryContainer
 {
   margin-top: 2rem;
+  
 }
 .title{
   margin: 2rem 0;
@@ -28,6 +29,11 @@
  
 }
 @media screen and (max-width: 980px){
+  .categoryContainer
+{
+  margin-top: 0rem;
+  
+}
   .container{
     display: block;
     width: 50%;
@@ -43,6 +49,7 @@
   }
   .title
 {
+  margin: 1rem 0;
   font-size: 1.5rem;
 }
 .contentDetails h3{
@@ -81,10 +88,17 @@
   position: relative;
   width: 90%;
   /* max-width: 400px; */
+  cursor: pointer;
   margin: auto;
   overflow: hidden;
   /* padding-bottom: 1rem; */
   border-radius: 20px 0 20px 0px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #a19898;
+}
+.content:hover
+{
+  transform: scale(1.05);
 }
 
 .content .content-overlay {

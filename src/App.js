@@ -8,6 +8,7 @@ import Info from './components/Info';
 import Home from "./Home"
 import About from "./components/About"
 import Category from './components/Category';
+import District from './components/District';
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/Info" element={<Info/>} />
           <Route path="/About" element={<About></About>}/>
-          <Route path="/District" element={<Category/>}/>
+          <Route path="/District" element={<District/>}/>
       </Routes>
       <Footer/>
 
