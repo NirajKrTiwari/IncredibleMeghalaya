@@ -3,7 +3,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo1 from '../Assets/Logo1.png'
-import css from "../styles/index.module.css"
+import {Link} from 'react-router-dom'
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+// import css from "../styles/index.module.css"
 function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" style={{background:'#FAACA8',backgroundImage:" linear-gradient(19deg, #e9cac9 0%, #DDD6F3 100%)",padding:"0px"}}>
@@ -12,19 +15,18 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="me-auto text-black">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-
-            <NavDropdown title="Places" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link  as={Link} to="/About">About</Nav.Link>
+           {/* <Nav.Link as={Link} to="/District">District</Nav.Link> */}
+            <NavDropdown title="District" id="collasible-nav-dropdown">
+              <NavDropdown.Item  as={Link} to="/District">Garo Hills</NavDropdown.Item>
+              <NavDropdown.Item  as={Link} to="/District">Jaintia Hills</NavDropdown.Item>
+              <NavDropdown.Item  as={Link} to="/District">East Khasi Hills</NavDropdown.Item>
+              <NavDropdown.Item  as={Link} to="/District">Shillong</NavDropdown.Item>
+              {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
           {/* <Nav>

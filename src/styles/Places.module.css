@@ -1,9 +1,7 @@
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
 .placeContainer
 {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .mainTitle{
@@ -13,7 +11,7 @@
   padding: 0.7em 0;
 }
 .title{
-  margin: 2rem 0 ;
+  margin: 0 0 2rem 0 ;
 }
 .container{
   padding-bottom:0.8rem;
@@ -63,7 +61,7 @@
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  /* background: rgba(0,0,0,0.7);
   position: absolute;
   height: 99%;
   width: 100%;
@@ -74,7 +72,7 @@
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s; */
 }
 
 .content:hover .content-overlay{

@@ -5,6 +5,9 @@ import SSister from "../Assets/SevenSister.jpg"
 import CleanestVillage from "../Assets/CleanestVillage.jpg"
 import Mawsynram from "../Assets/Mawsynram.png"
 import Laitlum from "../Assets/Laitlum.jpg"
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+
 
 export default function Places() {
     const data = [
@@ -45,14 +48,22 @@ export default function Places() {
             link: "https://www.meghalayatourism.in/destinations/elephant-falls/"
         },
     ]
+    const [value, setvalue] = useState("")
+    console.log(value);
+
+    //send value to other component List using Navigatin query
+    const navigate = useNavigate();
+    if(value !== ""){
+        navigate(`/Info?${value}`)
+    }
     return (
         <div className={css.placeContainer}>
             <h1 className={css.title}>Amazing Places to Visit</h1>
             {data.map((value) => (
                 <div className={css.container}>
                 
-                <div className={css.content}>
-                    <a href={value.link} target="_blank">
+                <div className={css.content} onClick={()=>{setvalue(value.title)}}>
+                    <a>
                         <div className={css.contentOverlay}></div>
                         <img className={css.contentImage} src={value.image}  alt=""/>
                             <div className={`${css.contentDetails} ${css.fadeInBottom}`}>
@@ -63,6 +74,12 @@ export default function Places() {
                 </div>
                 <h3>{value.title}</h3>
             </div>
+
+                //next
+
+
+
+
             ))}
         </div>
     )

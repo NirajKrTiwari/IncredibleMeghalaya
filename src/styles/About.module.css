@@ -3,30 +3,58 @@
     display: flex;
     flex-direction:row;
     padding-top:1rem ;
+    gap: 2rem;
 }
 .info>p{
     text-align: justify;
 }
 .container
 {
-    margin: 5rem 3rem;
+    margin: 3rem 3rem;
 
 }
 .img >img{
-    width:700px;
-    height: 500px;
+    width: 35rem;
+    height: 26rem;
+}
+.img{
+justify-content: center;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 980px){
+    .contain
+    {
+        flex-direction: column;
+        gap: 0;
+    }
+    .container
+    {
+        margin: 1rem;
+    }
+    .info>p
+    {
+        font-size: 1rem;
+    }
+    .img >img{
+        width: 100%;
+        height: 100%;
+    }
+
 }
 @media screen and (max-width: 640px){
     .contain
     {
         flex-direction: column;
+        gap: 0;
     }
-    .container
+    /* .container
     {
         margin: 1rem 1rem;
-    }
+    } */
     .info>p
     {
+        font-size: 0.6rem;
     }
     .img >img{
         width:100%;

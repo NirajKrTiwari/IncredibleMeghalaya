@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from './components/Hero';
 import Navigation from './components/Navigation';
-import Places from './components/Places';
-import Category from './components/Category';
 import Footer from "./components/Footer"
-import About from './components/About';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Info from './components/Info';
+import Home from "./Home"
+import About from "./components/About"
+import Category from './components/Category';
 function App() {
   return (
     <div className="App">
-      <Navigation/>
-      <Hero/>
-      <Category/>
-      <Places/>
-      <About/>
-      {/* <Footer/> */}
+     <Navigation/>
+      <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Info" element={<Info/>} />
+          <Route path="/About" element={<About></About>}/>
+          <Route path="/District" element={<Category/>}/>
+      </Routes>
+      <Footer/>
+
     </div>
+    
   );
 }
 
