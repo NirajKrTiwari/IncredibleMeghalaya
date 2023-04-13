@@ -137,6 +137,7 @@ export default function District()
     if(value !== ""){
         navigate(`/Info?${navigation}`)
     }
+    console.log(navigation);
     //navigate to the top of the screen when render page
     useEffect(() => {
         window.scrollTo(0, 0)
