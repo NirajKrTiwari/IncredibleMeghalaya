@@ -43,7 +43,7 @@ export default function District()
         },
         {
             title:"Memo Lake",
-            image:"http://eastgarohills.gov.in/img/core/tourism/memo01.jpg",
+            image:"http://eastgarohills.gov.in/galleries/gallery01/memo.gif",
             category:"Garo Hills"
         },
         {
