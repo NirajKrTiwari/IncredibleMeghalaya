@@ -5,8 +5,8 @@ import { useEffect } from 'react';
 export default function Info()
 {
     const url = window.location.href;
-    const value = (url.split("?")[1]).replace("%20"," ");
-    const value2=value.replace("%20"," ");
+    const value = (url.split("?")[1]).replace(/[0-9]/g,'');
+    const value2=value.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, ' ');
     console.log(value2);
 
     const data=[
