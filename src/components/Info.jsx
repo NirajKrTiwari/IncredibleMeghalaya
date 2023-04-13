@@ -58,6 +58,38 @@ export default function Info()
             video:"https://www.youtube.com/watch?v=iEW-BMTeRPc",
             desc:"At a distance of 4 km from Cherrapunjee Bus Stop, Nohsngithiang Falls is a picturesque waterfall located at Mawsmai village in East Khasi Hills district of Meghalaya. Also known as Seven Sister Falls and Mawsmai Falls, it is one of the tallest waterfalls in India and among the major places to visit in Cherrapunjee. Located in the wettest place on Earth, Cherrapunjee, Nohsngithiang Falls is a seven segmented waterfall that cascades down from a height of 315 m (1,033 feet) and has an average width of 70 m (230 feet). The falls plunges over the top of limestone cliffs of the Khasi Hills only during the rainy season. The seven segments of the waterfalls symbolize the seven sister states in northeast namely Assam, Arunachal Pradesh, Manipur, Nagaland, Tripura, Mizoram and Meghalaya. The best time to visit this place is during the monsoon, when the streams are flooded with water and flow down rapidly forming a perennial rainbow, which gives the spectacular views for the tourists. One can get the magnificent view of the falls from the viewpoint situated at Mawsmai village as there is no possibility to get into the water. Tourist can also view the falls from the Eco Park which has been constructed on a plateau on top of the falls."
         },
+        {
+            title: "Sohra",
+            image1: "https://cherrapunjee.com/wp-content/uploads/2019/09/Deep_Valleys_Sohra.jpg",
+            image2:"https://i2.wp.com/lifeisavacation.in/wp-content/uploads/2017/05/Sohra-Nohkalikhai-1.jpg?resize=768%2C494",
+            link: "",
+            video:"https://www.youtube.com/watch?v=XDekExsJjjY&pp=ygUFc29ocmE%3D",
+            desc:"Sohra has stories hidden all over – in its rivers, cascades, and mist-shrouded hill-tops. It is also the place where civilizations met, the cultural capital of the Khasis and the gateway of the colonial age. The terrain comes alive during the monsoons while the drier months are all about blue skies and scenic hikes and treks. The region around Sohra is synonymous with waterfalls – the plunging Nohkalikai and the thunderous Dainthlen are settings for immortal Khasi folktales while the three-tiered Wei Saw Dong is tucked away in a verdant forest. Sohra provides layers of sights and adventures – the more time you spend here, the more surprises you will encounter. You have a wide range of stay options in Sohra, from the luxurious Jiva and Polo Orchid resorts to cosy homestays that allow you to soak in the local vibes. Destinations around Sohra include Nongriat and Khat-ar-shnong."
+        },
+        {
+            title: "Chandigre Rural Resort",
+            image1: "https://www.meghalayatourism.in/wp-content/uploads/2020/06/chandigre-rural-tourist-resort.jpg",
+            image2:"http://eastgarohills.gov.in/img/core/tourism/daribokgre.gif",
+            link: "",
+            video:"https://www.youtube.com/watch?v=zoHSr2a0l5Q&pp=ygUXQ0hBTkRJR1JFIFJVUkFMIFZJTExBR0U%3D",
+            desc:"Chandigre embraces you with its orchards and plantations – offering visitors a glimpse into the lives of the Garos. It is a place where you can spend all day strolling around on paths lined by lush vegetation, vivid flower beds, and fruit trees. The resort village is located in the foothills of the Nokrek Reserve, one of the biggest biodiversity hotspots in the sub-continent. Chandigre serves as a base for many who trek to the forest reserve. A major highlight here is the local architecture, where visitors get to stay. The Garos build their living spaces using natural fibres and materials. Wander around Chandigre and explore the details of the traditional houses, known as Nok Achik in the local language. The Nok Pante is a dormitory and staying here is an essential rite of passage for young Garo males."
+        },
+        {
+            title: "",
+            image1: "",
+            image2:"",
+            link: "",
+            video:"",
+            desc:""
+        },
+        {
+            title: "",
+            image1: "",
+            image2:"",
+            link: "",
+            video:"",
+            desc:""
+        },
     ]
     useEffect(() => {
         window.scrollTo(0, 0)
