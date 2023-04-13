@@ -75,12 +75,12 @@ export default function Info()
             desc:"Chandigre embraces you with its orchards and plantations – offering visitors a glimpse into the lives of the Garos. It is a place where you can spend all day strolling around on paths lined by lush vegetation, vivid flower beds, and fruit trees. The resort village is located in the foothills of the Nokrek Reserve, one of the biggest biodiversity hotspots in the sub-continent. Chandigre serves as a base for many who trek to the forest reserve. A major highlight here is the local architecture, where visitors get to stay. The Garos build their living spaces using natural fibres and materials. Wander around Chandigre and explore the details of the traditional houses, known as Nok Achik in the local language. The Nok Pante is a dormitory and staying here is an essential rite of passage for young Garo males."
         },
         {
-            title: "",
-            image1: "",
-            image2:"",
+            title: "Memo Lake",
+            image1: "https://www.trawell.in/admin/images/upload/424918519Guwahati_Chandubi_Lake_Main.jpg",
+            image2:"https://cdn.s3waas.gov.in/s31efa39bcaec6f3900149160693694536/uploads/bfi_thumb/2019011641-olw75qwcozg8h677obwf6d138s1i5tegoimg9l3o96.jpg",
             link: "",
-            video:"",
-            desc:""
+            video:"https://www.youtube.com/watch?v=p1Wxeu0DI9A",
+            desc:"The tall hardwoods and tropical scenery of Garo Hills accompany you on your trip to Memo Lake, a charming getaway located close to Williamnagar town. The region is known for its rugged hilly terrain carved by the powerful Simsang River as it flows into the flatlands – and Memo Lake is a spot where one can relax and admire the placid waters and gentle, lush scenery. The lake is a convergence point of the Memo and Asa rivulets that flow from the surrounding forests. The bridge that spans the lake is a reminder to visitors of the resilience of traditional architecture. It is a platform of wooden planks propped up by thick branches on the shallowest part of the lake – akin to a spiky wooden spine across the water. The surrounding trees break the late afternoon sunlight and create a special glow over the lake – a postcard moment waiting to be immortalized by photography enthusiasts. You can spend a good forty minutes to an hour at this spot just admiring the serenity of it all."
         },
         {
             title: "",
