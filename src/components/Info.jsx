@@ -83,6 +83,70 @@ export default function Info()
             desc:"The tall hardwoods and tropical scenery of Garo Hills accompany you on your trip to Memo Lake, a charming getaway located close to Williamnagar town. The region is known for its rugged hilly terrain carved by the powerful Simsang River as it flows into the flatlands – and Memo Lake is a spot where one can relax and admire the placid waters and gentle, lush scenery. The lake is a convergence point of the Memo and Asa rivulets that flow from the surrounding forests. The bridge that spans the lake is a reminder to visitors of the resilience of traditional architecture. It is a platform of wooden planks propped up by thick branches on the shallowest part of the lake – akin to a spiky wooden spine across the water. The surrounding trees break the late afternoon sunlight and create a special glow over the lake – a postcard moment waiting to be immortalized by photography enthusiasts. You can spend a good forty minutes to an hour at this spot just admiring the serenity of it all."
         },
         {
+            title: "Rongbangdare Waterfalls",
+            image1: "https://www.travelholicq.com/wp-content/uploads/2021/07/Rongbangdare-Waterfalls-Meghalaya.jpg",
+            image2:"https://www.travelholicq.com/wp-content/uploads/2021/07/Tura-Peak-Meghalaya.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=n4SO_QJ27LE",
+            desc:"Cutting across the rugged and forested terrain, the Simsang and its tributaries have created many waterfalls in the Garo Hills region. Rongbangdare Waterfalls is one of the more popular and visually stunning landmarks of this naturally rich region. You will need to negotiate a cool and fresh mountain stream to get a clear view – there is an attractive and sturdy hanging bridge for those who want to avoid getting wet. The bridge also gives you a unique vantage point if you want to take some pictures of the gushing stream and the lush vegetation that cradles the waterfalls."
+        },
+        {
+            title: "Aminda Rangsa Art Village",
+            image1: "http://www.ohmeghalaya.com/wp-content/uploads/2016/06/garo.jpg",
+            image2:"https://meghalayamonitor.com/wp-content/uploads/2022/11/Nov-6-aminda1-780x470.jpeg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=ra7YIv-2tFQ",
+            desc:"The Garo Hills of Meghalaya are synonymous with expansive wilderness areas and lush, green scenery. Tucked in the western part of these immense forests, Aminda Rangsare is making a name for itself amongst art and sculpture enthusiasts. The village is famous for it’s wood and stone carvings, the work of its most famous artist Handum Marak. Marak’s installations celebrate the rich motifs and practices of Garo culture. Everywhere you wander in this village, you will run into a special piece of intricate design, created out of locally-sourced and abundantly available materials. From abstract representations and detailed statues to the celebration of local wildlife, there is a lot to witness in this artistic journey. You will also get to marvel at the Garo huts, made from cane and timber – known for their simple and endearing aesthetics."
+        },
+        {
+            title: "Chibragre Picnic Spot",
+            image1: "https://www.meghalayatourism.in/wp-content/uploads/2020/08/53.-Chibragre-Picnic-spot-1-1-2048x1536.jpg",
+            image2:"https://www.meghalayatourism.in/wp-content/uploads/2020/08/57.-Chibragre-Picnic-spot-5-1.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=0Z0Rg1nFQIk",
+            desc:"The people of Meghalaya love their picnics and spending a day out in nature with friends and loved ones. If you are in Tura, a visit to Chibragre is a nice way to get a dose of this favourite activity. The gentle river-side setting here provides a stage for some fun and recreation. Chibragre is located at the point where two rivers (the Rongram and Gangol) meet and flow on towards the west where they join the Brahmaputra. During the drier months, it is safe to swim in these cool, clear waters (with lifejackets) and you can also catch a breather on the vast river beach, a sandy stretch that can accommodate plenty of revelers."
+        },
+        {
+            title: "Nokrek Biosphere Reserve",
+            image1: "https://www.india-tours.com/wildlife/images/wildlife/national-parks/nokrek-national-park.jpg",
+            image2:"http://www.eastgarohills.gov.in/img/core/tourism/nokrek-01.png",
+            link: "",
+            video:"https://www.youtube.com/watch?v=FcdkgHVDlyI",
+            desc:"Let the wildest corners of Meghalaya embrace you at Nokrek, a land of myths and wild beasts. Designated a biosphere reserve in 2009, Nokrek encapsulates the allure of the Garo Hills and The Daribokgre Trek is one of the best ways to soak in this untamed beauty. At the beginning of this 16-km route, you will first traverse through the lush countryside dotted with thick groves, plantations, and tidy villages before entering the pristine forest. Nokrek is also the highest point in the Garo Hills you will be guaranteed some panoramic views of the surrounding ranges as you continue your journey on this vivid trail."
+        },
+        {
+            title: "",
+            image1: "",
+            image2:"",
+            link: "",
+            video:"",
+            desc:""
+        },
+        {
+            title: "",
+            image1: "",
+            image2:"",
+            link: "",
+            video:"",
+            desc:""
+        },
+        {
+            title: "",
+            image1: "",
+            image2:"",
+            link: "",
+            video:"",
+            desc:""
+        },
+        {
+            title: "",
+            image1: "",
+            image2:"",
+            link: "",
+            video:"",
+            desc:""
+        },
+        {
             title: "",
             image1: "",
             image2:"",
