@@ -109,7 +109,7 @@ export default function Info()
         {
             title: "Nokrek Biosphere Reserve",
             image1: "https://www.india-tours.com/wildlife/images/wildlife/national-parks/nokrek-national-park.jpg",
-            image2:"http://www.eastgarohills.gov.in/img/core/tourism/nokrek-01.png",
+            image2:"https://www.awf.org/sites/default/files/styles/default_desktop/public/2021-08/AfricanSavannaElephant_WorldElephantDay_AWF.jpg.webp?itok=JlLQO1bH",
             link: "",
             video:"https://www.youtube.com/watch?v=FcdkgHVDlyI",
             desc:"Let the wildest corners of Meghalaya embrace you at Nokrek, a land of myths and wild beasts. Designated a biosphere reserve in 2009, Nokrek encapsulates the allure of the Garo Hills and The Daribokgre Trek is one of the best ways to soak in this untamed beauty. At the beginning of this 16-km route, you will first traverse through the lush countryside dotted with thick groves, plantations, and tidy villages before entering the pristine forest. Nokrek is also the highest point in the Garo Hills you will be guaranteed some panoramic views of the surrounding ranges as you continue your journey on this vivid trail."
