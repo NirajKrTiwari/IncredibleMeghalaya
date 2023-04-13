@@ -69,7 +69,7 @@ export default function Info()
         {
             title: "Chandigre Rural Resort",
             image1: "https://www.meghalayatourism.in/wp-content/uploads/2020/06/chandigre-rural-tourist-resort.jpg",
-            image2:"http://eastgarohills.gov.in/img/core/tourism/daribokgre.jpg",
+            image2:"https://rural.tourism.gov.in/images/attraction/Chandigre-Rural-Tourist-Rersort-1.jpg",
             link: "",
             video:"https://www.youtube.com/watch?v=zoHSr2a0l5Q&pp=ygUXQ0hBTkRJR1JFIFJVUkFMIFZJTExBR0U%3D",
             desc:"Chandigre embraces you with its orchards and plantations – offering visitors a glimpse into the lives of the Garos. It is a place where you can spend all day strolling around on paths lined by lush vegetation, vivid flower beds, and fruit trees. The resort village is located in the foothills of the Nokrek Reserve, one of the biggest biodiversity hotspots in the sub-continent. Chandigre serves as a base for many who trek to the forest reserve. A major highlight here is the local architecture, where visitors get to stay. The Garos build their living spaces using natural fibres and materials. Wander around Chandigre and explore the details of the traditional houses, known as Nok Achik in the local language. The Nok Pante is a dormitory and staying here is an essential rite of passage for young Garo males."
