@@ -63,7 +63,7 @@ export default function District()
         },
         {
             title:"Nokrek Biosphere Reserve",
-            image:"http://www.eastgarohills.gov.in/img/core/tourism/nokrek-07.jpg",
+            image:"https://www.india-tours.com/wildlife/images/wildlife/national-parks/nokrek-national-park.jpg",
             category:"Garo Hills"
         },
         {
