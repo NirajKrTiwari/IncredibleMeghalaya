@@ -43,7 +43,7 @@ export default function District()
         },
         {
             title:"Memo Lake",
-            image:"http://eastgarohills.gov.in/galleries/gallery01/memo.gif",
+            image:"https://www.trawell.in/admin/images/upload/424918519Guwahati_Chandubi_Lake_Main.jpg",
             category:"Garo Hills"
         },
         {
