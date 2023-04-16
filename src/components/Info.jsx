@@ -187,7 +187,7 @@ export default function Info()
             desc:"At a distance of 3.5 km from Shillong Bus Terminal, the Cathedral of Mary Help of Christians is a Roman Catholic Church located in the Laitumkhrah locality of Shillong. Also known as the Cathedral Catholic Church, it is the principal place of worship in Shillong and among the most famous places to visit in Shillong. Dedicated to mother Mary, the Cathedral Church of Mary Help of Christians was built by the Germans in 1913. According to history, the construction of the present shrine was built after the first church got destroyed due to a fire accident in 1936. It got the status of a shrine in 1980, on completion of the Catholic Church's 100 years in North East India. This church falls under Roman Catholic Archdiocese of Shillong and is the principal place of worship of about 300,000 strong Catholics of Ri Bhoi and East Khasi Hills district of Meghalaya."
         },
         {
-            title: "Ward's Lake",
+            title: "Wards Lake",
             image1: "https://www.trawell.in/admin/images/upload/648495912Shillong_Ward's_Lake_Main.jpg",
             image2:"https://live-media-cdn.travalour.com/webp/b51462a8-32e1-11ea-a2af-0ec82d6f8976_960x0",
             link: "",
@@ -197,7 +197,7 @@ export default function Info()
         {
             title: "Don Bosco Museum",
             image1: "https://unusualcollections.files.wordpress.com/2016/04/lcs-img-don-bosco.jpg",
-            image2:"https://www.youtube.com/watch?v=3Jydvejfl-E",
+            image2:"https://dbcic.org/wp-content/uploads/2019/11/sky-walk-6.jpg",
             link: "",
             video:"https://www.youtube.com/watch?v=3Jydvejfl-E",
             desc:"Seven storeys of fascinating visuals, colours, and treasures – that is one way to describe Don Bosco Museum. You will first be greeted by the traditional wear of all the different North-Eastern communities as you enter the building, including well-researched sections on the neighbouring countries like Bhutan, Myanmar, and Nepal. The photography section is loaded with rare photos – you can spend hours lost exploring these snippets of tribal life taken across the region and spanning many generations. Other highlights of the Museum include the Pre-history Gallery which sheds more light on the origins and migrations of the tribes, and the Land and People Gallery where you can learn more about the beautiful terrain and how it shaped the practices and lifestyles of the indigenous people who call it home. It is adorned with sculptures and portraits. There is a gallery dedicated to the various hunting, gathering, and fishing practices and a gallery dedicated to agriculture. Many visitors find the Traditional Technology exhibits very interesting."

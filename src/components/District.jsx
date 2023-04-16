@@ -107,7 +107,7 @@ export default function District()
             category:"Shillong"
         },
         {
-            title:"Ward's Lake",
+            title:"Wards Lake",
             image:"https://www.trawell.in/admin/images/upload/648495912Shillong_Ward's_Lake_Main.jpg",
             category:"Shillong"
         },
