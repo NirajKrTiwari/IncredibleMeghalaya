@@ -78,7 +78,7 @@ export default function District()
         },
         {
             title:"Kudengrim",
-            image:"https://www.thenevibes.com/uploads/images/image_750x_5d23581f76608.jpg",
+            image:"https://files.yappe.in/place/full/kudengrim-tourism-53738.webp",
             category:"Jaintia Hills"
         },
         {
@@ -112,8 +112,8 @@ export default function District()
             category:"Shillong"
         },
         {
-            title:"The Centre Point Shillong",
-            image:"https://theshillongtimes.com/wp-content/uploads/2020/05/Police-Bazar-point.jpg",
+            title:"Golf Links",
+            image:"https://www.trawell.in/admin/images/upload/648495900Shillong_Golf_Course_Main.jpg",
             category:"Shillong"
         },
         {

@@ -115,12 +115,100 @@ export default function Info()
             desc:"Let the wildest corners of Meghalaya embrace you at Nokrek, a land of myths and wild beasts. Designated a biosphere reserve in 2009, Nokrek encapsulates the allure of the Garo Hills and The Daribokgre Trek is one of the best ways to soak in this untamed beauty. At the beginning of this 16-km route, you will first traverse through the lush countryside dotted with thick groves, plantations, and tidy villages before entering the pristine forest. Nokrek is also the highest point in the Garo Hills you will be guaranteed some panoramic views of the surrounding ranges as you continue your journey on this vivid trail."
         },
         {
-            title: "",
-            image1: "",
+            title: "Dawki",
+            image1: "https://nomadicweekends.com/blog/wp-content/uploads/2019/09/66851483_2355591914534526_8824396371357335552_o-1080x720.jpg",
+            image2:"https://www.trawell.in/admin/images/upload/201443190Dawki_umngot.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=4VQJomBVrug",
+            desc:"Dawki is a border town in the south of Meghalaya and a great base to explore nearby Shnongpdeng and Darrang – famous riverside camps. You will witness a blend of cultures and changing topography as the hills merge into the plains of Northern Bangladesh. Some of the evening scenery here is stunning as you watch the lights glow above the neighbouring plains over the gentle, dark river. Shnongpdeng Village is 8 km north of Dawki along the winding Umngot. With waters so clear, you can peer into the bottom and count the stones – that is how the Umngot River can be described during the peak pre-monsoon, autumn, and winter seasons. Whether you want to enjoy a gentle boat ride through a stretch flanked by forests or you want to take a dip into the river in scuba gear, the activities in Shnongpdeng will keep you occupied for days."
+        },
+        {
+            title: "Krangshuri Falls",
+            image1: "https://www.holidify.com/images/cmsuploads/compressed/Krang_Suri_Falls_20191120120114.jpg",
+            image2:"https://i2.wp.com/pixahive.com/wp-content/uploads/2020/10/Blue-water-at-Krangsuri-Waterfall-132278-pixahive.jpg?fit=778%2C586&ssl=1",
+            link: "",
+            video:"https://www.youtube.com/watch?v=41YhVCQhuhM&pp=ygUaa3Jhbmcgc3VyaSBmYWxscyBtZWdoYWxheWE%3D",
+            desc:"The walk down to Krangshuri is a pleasant descent – you begin on an open meadow and slowly climb down into more defined shrub and vegetation. There are railings around the falls where you can get a good view and you can also inquire about the boating facilities there. Upstream is a small space where people can camp, surrounded by lush green vegetation and with the gentle ripple of the river for company. On calm sunny days, you can enjoy a dip in the pool of the waterfall after renting life jackets. Shutterbugs will certainly enjoy strolling around the surrounding hills looking for a vantage point, of which there are many. Just make sure you watch your step and wear footwear with good grip as the rocks around the water can be slippery. Getting there – The 90-km drive to Krangshuri from Shillong via the NH6 and NH206 is a riveting one – highways looping around the gentle hills, punctuated by hamlets and small towns. There are plenty of eating choices for those who are ready to try local food."
+        },
+        {
+            title: "Kudengrim",
+            image1: "https://files.yappe.in/place/full/kudengrim-tourism-53738.webp",
+            image2:"https://www.thenevibes.com/uploads/images/image_750x_5d23581f76608.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=7zIvPqnqF64",
+            desc:"The highway roads flanked by paddy fields and pine-crested hillocks give way to steep slopes as one descends into Kudengrim, a cosy village perched in the Jaintia Hills. There are some quintessential Meghalayan sights and experiences on offer – with knowledgeable and friendly residents always there to guide you. Kudengrim’s first main attraction is a twenty-minute hike from the main village. Make your way through a tranquil forest and tread under a dense canopy before you reach a magnificent wide-brimmed, segmented waterfall, the scene straight out of an adventure movie. Close to the cascade is a fascinating example of Meghalaya’s famous living architecture – the Kudengrim Living Root Bridge. Admire the two-levelled bridge, created by weaving the roots of the Ficus Elastica trees, the giant guardians of the forests here."
+        },
+        {
+            title: "Nartiang Monoliths",
+            image1: "https://images.news18.com/ibnlive/uploads/2022/09/nartiang.jpg?impolicy=website&width=0&height=0",
+            image2:"https://cdn.s3waas.gov.in/s384f7e69969dea92a925508f7c1f9579a/uploads/bfi_thumb/2019012992-olw9xayyk9qk6bl5bv4vrqloazc2fpmzda4v5nhj7u.jpeg",
+            link: "",
+            video:"youtube.com/watch?v=IiSeHOktaMc",
+            desc:"The Jaintia districts of Meghalaya have a distinct royal history and Nartiang is one of the best places to see well-preserved remnants from this glorious chapter. The garden of monoliths features a collection of large monoliths that were erected as monuments for the old kings. There is a small winding path that twists through and around the looming monoliths, providing a chance for you to explore and soak in the surreal scenes. You will also get decent views of the town from this heritage site. Some of these stones were erected half a millennia ago and additions were made till the middle of the nineteenth century. The monoliths provide a captivating sight – arguably the largest collection of monoliths in a single place and loaded with so much historical and cultural significance. The standing monoliths or menhirs are dedicated to the male ancestors while the flat ones, the dolmens, are dedicated to the women."
+        },
+        {
+            title: "Umbyrlein Falls",
+            image1: "https://www-cdn.time8.in/wp-content/uploads/2019/10/cropped-71895272_2258460487587492_2226805981650616320_n.jpg",
             image2:"",
             link: "",
-            video:"",
-            desc:""
+            video:"https://www.youtube.com/watch?v=ge3kJ3Cb_TY&pp=ygUPVW1ieXJsZWluIEZhbGxz",
+            desc:"The iconic Umbyrlein Falls lies in Rangad Village, East Jaintia Hills District at a distance of 36 Km frm Jowai and only 7 Km from the Kongong junction of National Highway NH6. It is located near Mutong Village, the site for the famous Moopun Falls. It is a new tourist spot tucked away from civilization. There is a huge meadow and grassland with swings, park benches and gazebos to to sit and relax. Menhirs, forest and trees and a view as far as the eye can see dot the landscape. A short trek of half a kilometre through stone pathways and we are greeted with the site of the amazing Umbyrlein falls. The falls is quite majestic with a huge natural pool at the bottom. The bottom of the falls can also be accessed through stone steps that go all the way down to the natural pool."
+        },
+        {
+            title: "Nartiang Durga Temple",
+            image1: "https://upload.wikimedia.org/wikipedia/commons/6/69/Nartiang_Durga_temple.jpg",
+            image2:"https://www.indiadivine.org/wp-content/uploads/2019/02/durga-05.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=H-zaqYMO2sQ",
+            desc:"What today might come across as a sleepy town used to the trail of tourists, Nartiang was once an important cultural and spiritual centre during the peak of the Jaintia kingdom. It is also home to the famous Nartiang Durga Temple. The Durga temple here is built on the site of an older one and fascinating stories emerge as you dig around and learn about the history of the place. This is a site where human sacrifices were made until the advent of British rule. In fact, a tunnel inside the temple ends at the nearby Myntang river and the heads of the sacrificed were rolled down this shaft. The Nartiang Durga temple also contains some relics from the Jaintia kingdoms – old antique canons which show the level of sophistication that the armies of these hills possessed so long ago. Another alluring attraction close to the temple is the garden of monoliths. These heavy and large blocks of stone were erected as monuments for old rulers and provide a surreal sight."
+        },
+        {
+            title: "Golf Links",
+            image1: "https://www.trawell.in/admin/images/upload/648495900Shillong_Golf_Course_Main.jpg",
+            image2:"https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3490/x_0,y_339,w_5000,h_2812,r_0,c_crop,q_80,fl_progressive/w_500,f_auto,c_fit/hotel-polo-towers/mk-s-WHf1wtNMMLU-unsplash_prpgln",
+            link: "",
+            video:"https://www.youtube.com/watch?v=wuOxvUfpCZk",
+            desc:"Known as the Glen Eagles of the East, Shillong’s golf course is not just one of the largest and prettiest natural courses in the country. It is also a place where the townspeople love to wander around and relax on the open meadows while admiring the pine groves that encircle the area. Many visitors love to take a stroll around the golf course, crossing over quaint bridges, tucking into some street food, and marvelling at the monoliths placed in one of the sections of the golf course. There are many eateries on the fringes of the golf course, some with outdoor seating so you can feel the breeze and relish the verdant scenes while you munch on your favourite snacks. If you fancy a round or two on the greens you can get in touch with the office of the Shillong Golf Club, located in a charming old building at the top of the hill."
+        },
+        {
+            title: "Umiam Lake",
+            image1: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Umiam_Lake_-_by_Vikramjit_Kakati.png",
+            image2:"https://www.scrolldroll.com/wp-content/uploads/2018/05/Umiam-Lake-Shillong-Meghalaya-Places-to-Visit-In-North-East.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=sfzlMSljvrc",
+            desc:"Flanked by hills on all sides and lined by striking roadways and bridges, the gentle Umiam Lake is one of the reasons why the Guwahati-Shillong route is considered one of the most scenic in the region. The lake was formed when a dam was built over the Umiam River in the early sixties as part of a hydel power project. Umiam Lake has become a favourite spot for many who come to admire the landscape. The adjoining Orchid Lake Resort is a government-run facility where you can book lodges or grab a bite at the restaurant with fine views. The resort swimming pool, with its dramatic location on the edge of the hill overlooking the lake, is also open to visitors. Umiam Lake is Shillong’s major hub for water sports and boating. Paddle boats, water scooters, and speed boats are some of the plentiful options for those who look to hit the waters. There are many other resorts tucked in the serene lakeside woods where you can spend time amidst the quiet, natural surroundings."
+        },
+        {
+            title: "Cathedral Catholic Church",
+            image1: "https://lh5.googleusercontent.com/p/AF1QipOnwvxx0FYIOg1yrbo8QKbhHacyEL7XKl3DVBSc=w1080-k-no",
+            image2:"https://nexplore.org/blog/wp-content/uploads/et_temp/3181112909_489170a03f_b-539159_1024x675.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=pmpDJqEvzg8",
+            desc:"At a distance of 3.5 km from Shillong Bus Terminal, the Cathedral of Mary Help of Christians is a Roman Catholic Church located in the Laitumkhrah locality of Shillong. Also known as the Cathedral Catholic Church, it is the principal place of worship in Shillong and among the most famous places to visit in Shillong. Dedicated to mother Mary, the Cathedral Church of Mary Help of Christians was built by the Germans in 1913. According to history, the construction of the present shrine was built after the first church got destroyed due to a fire accident in 1936. It got the status of a shrine in 1980, on completion of the Catholic Church's 100 years in North East India. This church falls under Roman Catholic Archdiocese of Shillong and is the principal place of worship of about 300,000 strong Catholics of Ri Bhoi and East Khasi Hills district of Meghalaya."
+        },
+        {
+            title: "Ward's Lake",
+            image1: "https://www.trawell.in/admin/images/upload/648495912Shillong_Ward's_Lake_Main.jpg",
+            image2:"https://live-media-cdn.travalour.com/webp/b51462a8-32e1-11ea-a2af-0ec82d6f8976_960x0",
+            link: "",
+            video:"https://www.youtube.com/watch?v=DVnpDF5x4AE",
+            desc:"With its charming wooden bridge and grassy slopes providing a serene lakeside resting place, Ward’s Lake is one of the most endearing attractions in Shillong town. A stone path encircles the small lake and other highlights here include the immaculately maintained flower gardens along with the lofty trees that provide shade to visitors. More than a hundred years old, Ward’s Lake is named after William Ward, a Chief Commissioner from the British era. Paddle boating in the calm lake waters is recommended. Grab a bite and a beverage at the restaurant overlooking the bridge. Ward’s lake is an ideal place to watch the world go by – from young couples to parents with their children, everyone converges here. Standing on the bridge that spans the lake and feeding the fish below is a favourite pastime. You also have the resident ducks to befriend."
+        },
+        {
+            title: "Don Bosco Museum",
+            image1: "https://unusualcollections.files.wordpress.com/2016/04/lcs-img-don-bosco.jpg",
+            image2:"https://www.youtube.com/watch?v=3Jydvejfl-E",
+            link: "",
+            video:"https://www.youtube.com/watch?v=3Jydvejfl-E",
+            desc:"Seven storeys of fascinating visuals, colours, and treasures – that is one way to describe Don Bosco Museum. You will first be greeted by the traditional wear of all the different North-Eastern communities as you enter the building, including well-researched sections on the neighbouring countries like Bhutan, Myanmar, and Nepal. The photography section is loaded with rare photos – you can spend hours lost exploring these snippets of tribal life taken across the region and spanning many generations. Other highlights of the Museum include the Pre-history Gallery which sheds more light on the origins and migrations of the tribes, and the Land and People Gallery where you can learn more about the beautiful terrain and how it shaped the practices and lifestyles of the indigenous people who call it home. It is adorned with sculptures and portraits. There is a gallery dedicated to the various hunting, gathering, and fishing practices and a gallery dedicated to agriculture. Many visitors find the Traditional Technology exhibits very interesting."
+        },
+        {
+            title: "Air Force Museum",
+            image1: "https://www.trawell.in/admin/images/upload/648495569Shillong_Air_Force_Museum_Main.jpg",
+            image2:"https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto/the-best-museums-in-shillong00.jpg",
+            link: "",
+            video:"https://www.youtube.com/watch?v=F_ipFwsr4KY",
+            desc:"At a distance of 13 km from Shillong Bus Stand, Air Force Museum is a museum located in Upper-Shillong of Meghalaya. Situated near Elephant Falls, it is one of the popular museums in Meghalaya and among the top places to visit in Shillong. The Air Force Museum forms a part of the Indian Air Force's Eastern Command in Shillong. This museum is a tribute to the glorious past of the defense of our nation. It hosts aircraft models, actual machines and technology demonstrations used by the IAF Eastern Command. The museum displays the uniforms worn by the air force pilots, missiles, rockets, pictures of Indo-China War and Indo-Pakistan War, medals and miniature models of air crafts. The huge MI 4 helicopter, played a central role in the 1971 war, is displayed in the museum lawn and makes for a remarkable sight. Another attraction is the Streak Shadow Microlight that's a part of the famous Microlight series. This splendid aircraft took its first flight in 1988. Caribou DHC 4, the fighter plane used for bombings in eastern Pakistan during the war of 1971, is the highlight of this place. The museum has a special section that houses a collection of several musical instruments. Visitors can also see Python's skin in the museum."
         },
         {
             title: "",
@@ -130,30 +218,8 @@ export default function Info()
             video:"",
             desc:""
         },
-        {
-            title: "",
-            image1: "",
-            image2:"",
-            link: "",
-            video:"",
-            desc:""
-        },
-        {
-            title: "",
-            image1: "",
-            image2:"",
-            link: "",
-            video:"",
-            desc:""
-        },
-        {
-            title: "",
-            image1: "",
-            image2:"",
-            link: "",
-            video:"",
-            desc:""
-        },
+
+            
     ]
     useEffect(() => {
         window.scrollTo(0, 0)
