@@ -7,8 +7,7 @@ export default function Info()
     const url = window.location.href;
     const value = (url.split("?")[1]).replace(/[0-9]/g,'');
     const value2=value.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, ' ');
-    console.log(value2);
-
+    
     const data=[
         {
             title: "Shillong",
@@ -180,7 +179,7 @@ export default function Info()
         },
         {
             title: "Cathedral Catholic Church",
-            image1: "https://lh5.googleusercontent.com/p/AF1QipOnwvxx0FYIOg1yrbo8QKbhHacyEL7XKl3DVBSc=w1080-k-no",
+            image1: "https://www.trawell.in/admin/images/upload/648495828Shillong_Cathedral_of_Mary_Help_of_Christian_Main.jpg",
             image2:"https://nexplore.org/blog/wp-content/uploads/et_temp/3181112909_489170a03f_b-539159_1024x675.jpg",
             link: "",
             video:"https://www.youtube.com/watch?v=pmpDJqEvzg8",

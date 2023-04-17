@@ -103,7 +103,7 @@ export default function District()
         },
         {
             title:"Cathedral Catholic Church",
-            image:"https://lh5.googleusercontent.com/p/AF1QipOnwvxx0FYIOg1yrbo8QKbhHacyEL7XKl3DVBSc=w1080-k-no",
+            image:"https://www.trawell.in/admin/images/upload/648495828Shillong_Cathedral_of_Mary_Help_of_Christian_Main.jpg",
             category:"Shillong"
         },
         {
@@ -134,9 +134,11 @@ export default function District()
     console.log(value2);
     const [navigation, setNavigation] = useState("")
     const navigate = useNavigate();
-    if(value !== ""){
+
+    if(navigation !== ""){
         navigate(`/Info?${navigation}`)
     }
+
     console.log(navigation);
     //navigate to the top of the screen when render page
     useEffect(() => {
@@ -150,7 +152,7 @@ export default function District()
           {
                 data.map((value)=>(
                     value.category===value2 && (
-                    <div className={css.content} onClick={()=>{setNavigation(value.title)}} >
+                    <div className={css.content} onClick={()=>{setNavigation(value.title) }} >
                         <a >
                             <div className={css.contentOverlay}></div>
                             <img className={css.contentImage} src={value.image}  alt=""/>

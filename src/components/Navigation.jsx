@@ -5,24 +5,25 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo1 from '../Assets/Logo1.png'
 import {Link} from 'react-router-dom'
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import { useState } from 'react';
 // import css from "../styles/index.module.css"
 function Navigation() {
+  const [expanded, setExpanded] = useState(false);
   return (
-    <Navbar collapseOnSelect expand="lg" style={{background:'#FAACA8',backgroundImage:" linear-gradient(19deg, #e9cac9 0%, #DDD6F3 100%)",padding:"0px"}}>
+    <Navbar expanded={expanded} collapseOnSelect expand="lg" style={{background:'#f7ac7f',backgroundImage:"linear-gradient(135deg, #f7ac7f 0%, #ffffff 54%, #98f57f 100%)",padding:"0px",fontWeight:"bold"}}>
       <Container>
         <Navbar.Brand as={Link} to="/" style={{border:"none"}}><img src={Logo1} alt="" width={110} height={60}/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" >
-          <Nav className="me-auto text-black">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link  as={Link} to="/About">About</Nav.Link>
+        <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav " >
+          <Nav className="me-auto text-black m-auto ">
+            <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/">Home</Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/About">About</Nav.Link>
            {/* <Nav.Link as={Link} to="/District">District</Nav.Link> */}
             <NavDropdown title="District" id="collasible-nav-dropdown">
-              <NavDropdown.Item  as={Link} to="/District/?Garo Hills">Garo Hills</NavDropdown.Item>
-              <NavDropdown.Item  as={Link} to="/District/?Jaintia Hills">Jaintia Hills</NavDropdown.Item>
-              <NavDropdown.Item  as={Link} to="/District/?East Khasi Hills">East Khasi Hills</NavDropdown.Item>
-              <NavDropdown.Item  as={Link} to="/District/?Shillong">Shillong</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?Garo%20Hills">Garo Hills</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?Jaintia%20Hills">Jaintia Hills</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?East%20Khasi%20Hills">East Khasi Hills</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?Shillong">Shillong</NavDropdown.Item>
               {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
