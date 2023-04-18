@@ -72,24 +72,27 @@ export default function Hero() {
 {/* Mobile */}
 <Carousel activeIndex={index} onSelect={handleSelect} data-interval="1000" fade className={css.Mobile}>
 <Carousel.Item interval={2000} className="hero" >
+<Link to="/Info?Mawlynnong">
   <img
     className="d-block w-100"
     src={RootBridgeM}
     alt="First slide"
   />
+  </Link>
   <Carousel.Caption >
-    <h1>The Ever Growing Living Root Bridge</h1>
+    <h1>The Living Root Bridge</h1>
     <h3>East Khasi Hills</h3>
   </Carousel.Caption>
 </Carousel.Item >
 
 <Carousel.Item interval={2000} className="hero">
+<Link to="/Info?Umiam Lake">
   <img
     className="d-block w-100"
     src={UmaimLakeM}
     alt="Second slide"
   />
-
+  </Link>
   <Carousel.Caption>
   <h1>Umiam Lake</h1>
     <h3>East Khasi Hills</h3>
@@ -97,11 +100,13 @@ export default function Hero() {
 </Carousel.Item>
 
 <Carousel.Item interval={2000} className="hero">
+<Link to="/Info?Krangshuri Falls">
   <img
     className="d-block w-100"
     src={KrangSuriM}
     alt="Third slide"
   />
+  </Link>
 
   <Carousel.Caption>
   <h1>Krang Suri</h1>
