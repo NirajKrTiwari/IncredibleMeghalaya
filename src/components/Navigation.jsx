@@ -10,17 +10,17 @@ import { useState } from 'react';
 function Navigation() {
   const [expanded, setExpanded] = useState(false);
   return (
-    <Navbar expanded={expanded} collapseOnSelect expand="lg" style={{background:'#f7ac7f',backgroundImage:"linear-gradient(135deg, #f7ac7f 0%, #ffffff 54%, #98f57f 100%)",padding:"0px",fontWeight:"bold"}}>
+    <Navbar expanded={expanded} collapseOnSelect expand="lg" style={{background:'#f7ac7f',backgroundImage:"linear-gradient(135deg, #f7ac7f 0%, #ffffff 54%, #98f57f 100%)",padding:"0px",fontWeight:"bold",fontSize:'1.2rem'}}>
       <Container>
         <Navbar.Brand as={Link} to="/" style={{border:"none"}}><img src={Logo1} alt="" width={110} height={60}/></Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav " >
-          <Nav className="me-auto text-black m-auto ">
+          <Nav className="me-auto text-black m-auto " >
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/">Home</Nav.Link>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/About">About</Nav.Link>
            {/* <Nav.Link as={Link} to="/District">District</Nav.Link> */}
-            <NavDropdown title="District" id="collasible-nav-dropdown">
-              <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?Garo%20Hills">Garo Hills</NavDropdown.Item>
+            <NavDropdown title="District" id="collasible-nav-dropdown" className='' >
+              <NavDropdown.Item  onClick={() => setExpanded(false)} as={Link} to="/District/?Garo%20Hills">Garo Hills</NavDropdown.Item>
               <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?Jaintia%20Hills">Jaintia Hills</NavDropdown.Item>
               <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?East%20Khasi%20Hills">East Khasi Hills</NavDropdown.Item>
               <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/District/?Shillong">Shillong</NavDropdown.Item>
