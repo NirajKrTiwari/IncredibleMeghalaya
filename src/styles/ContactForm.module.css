@@ -1,0 +1,91 @@
+.main{
+    background-image: url("../Assets/ElephantFalls.jpg");
+    padding: 2rem;
+}
+.container
+{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 2rem auto; */
+
+    height: auto;
+  width: 50%;
+  margin: 0rem auto;
+  display: block;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #a19898;
+}
+.form
+{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem;
+
+    padding: 0;
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.head
+{   
+    letter-spacing: 3px;
+}
+.contactFormField
+{
+    color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 0;
+  margin-right: 0;
+  line-height: 22px;
+  background-color: none;
+  padding: 13px 13px 13px 13px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid #00ff33;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.contactFormField:focus
+{
+    box-shadow: 0;
+  color: black;
+  transition: .4s ease;
+  outline: none;
+  border-bottom: 2px solid orange;
+  padding: 13px 13px 13px 13px;
+}
+.submitButton
+{
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background:#f7ac7f;
+  background-image:linear-gradient(135deg, #f7ac7f 0%, #ffffff 54%, #98f57f 100%);
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-top: -4px;
+  font-weight: 700;
+  transition: .3s ease;
+  border-radius: 1rem;
+}
+.submitButton:hover{
+    border: 1px solid black;
+    color: black;
+    background: white;
+}

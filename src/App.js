@@ -9,7 +9,9 @@ import Home from "./Home"
 import About from "./components/About"
 import Category from './components/Category';
 import District from './components/District';
+import ContactForm from './components/ContactForm';
 function App() {
+  
   return (
     <div className="App">
      <Navigation/>
@@ -18,6 +20,7 @@ function App() {
           <Route path="/Info" element={<Info/>} />
           <Route path="/About" element={<About></About>}/>
           <Route path="/District" element={<District/>}/> 
+          <Route path="/ContactForm" element={<ContactForm/>}/>
       </Routes>
       <Footer/>
 

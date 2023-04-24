@@ -29,6 +29,7 @@ function Navigation() {
                 Separated link
               </NavDropdown.Item> */}
             </NavDropdown>
+            <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/ContactForm">Contact</Nav.Link>
           </Nav>
           {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
