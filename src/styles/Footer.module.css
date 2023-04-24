@@ -64,7 +64,7 @@
 @media only screen and (max-width: 729px) {
     .container
 {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     gap:.5rem;
     /* position: fixed; */
     bottom: 0;
