@@ -41,21 +41,21 @@
 }
 .contactFormField
 {
-    color: #000;
+color:orange;
   font-weight: 400;
   font-size: 18px;
   border-radius: 0;
   margin-right: 0;
   line-height: 22px;
   background-color: none;
-  padding: 13px 13px 13px 13px;
+  padding: 13px 13px 13px 4px;
   margin-bottom: 10px;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  border-bottom: 2px solid #00ff33;
+  border-bottom: 3px solid #00ff33;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -63,10 +63,10 @@
 .contactFormField:focus
 {
     box-shadow: 0;
-  color: black;
-  transition: .4s ease;
+  color: orange;
+  transition: .1s ease;
   outline: none;
-  border-bottom: 2px solid orange;
+  border-bottom: 4px solid orange;
   padding: 13px 13px 13px 13px;
 }
 .submitButton
@@ -78,8 +78,7 @@
   background:#f7ac7f;
   background-image:linear-gradient(135deg, #f7ac7f 0%, #ffffff 54%, #98f57f 100%);
   font-size: 24px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding: 1rem 0;
   margin-top: -4px;
   font-weight: 700;
   transition: .3s ease;

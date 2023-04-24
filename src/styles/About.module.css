@@ -29,8 +29,8 @@ justify-content: center;
         gap: 0;
     }
     .container
-    {
-        margin: 1rem;
+    {    
+        margin: 11vh 2rem;
     }
     .info>p
     {
@@ -48,10 +48,10 @@ justify-content: center;
         flex-direction: column;
         gap: 0;
     }
-    /* .container
-    {
-        margin: 1rem 1rem;
-    } */
+    .container
+    {    
+        margin:8vh 1em;
+    }
     .info>p
     {
         font-size: 0.6rem;
