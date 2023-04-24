@@ -89,3 +89,30 @@
     color: black;
     background: white;
 }
+
+@media screen and (max-width: 600px){
+.container{
+    width: 100%;
+    
+}
+.main{
+    padding: 15vh 10px;
+}
+.head
+{
+    font-size: 1.5rem;
+}
+.form
+{
+    gap: 0rem;
+}
+.contactFormField
+{
+    padding: 7px;
+}
+.submitButton
+{
+    padding: 5px;
+    font-size: 15px;
+}
+}
