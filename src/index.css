@@ -21,3 +21,7 @@ code {
   background-color: #FAACA8;
   background-image: linear-gradient(19deg, #e9cac9 0%, #DDD6F3 100%);
 }
+.toogle
+{
+  border: none;
+}

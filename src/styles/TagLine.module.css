@@ -1,0 +1,26 @@
+.container
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 2px 0;
+    font-size: 1.2rem;
+}
+.container2
+{
+    margin: 2rem 10px;
+}
+.container2>h1{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+@media screen and (max-width: 840px){
+    .container2>h1{
+        font-size: 1.4rem;
+    }
+    .container2>h4
+    {
+        font-size: 1.2rem;
+    }
+}

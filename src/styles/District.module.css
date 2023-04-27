@@ -16,6 +16,10 @@
     width: 25vw;
     height: 29vh;
 }
+.MainContainer h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 .container
 {
     display: flex;
