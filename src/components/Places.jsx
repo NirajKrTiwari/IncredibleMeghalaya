@@ -63,7 +63,7 @@ export default function Places() {
                 <div className={css.container}>
                 
                 <div className={css.content} onClick={()=>{setvalue(value.title)}}>
-                    <a>
+                    <a href="">
                         <div className={css.contentOverlay}></div>
                         <img className={css.contentImage} src={value.image}  alt=""/>
                             <div className={`${css.contentDetails} ${css.fadeInBottom}`}>

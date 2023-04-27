@@ -4,17 +4,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo1 from '../Assets/Logo1.png'
 import {Link} from 'react-router-dom'
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useState } from 'react';
-import '../../src/index.css'
+import css from'../styles/Footer.module.css'
 // import css from "../styles/index.module.css"
 function Navigation() {
   const [expanded, setExpanded] = useState(false);
   return (
+    // style={{border:'none'}}
     <Navbar expanded={expanded} collapseOnSelect expand="lg" style={{background:'#f7ac7f',backgroundImage:"linear-gradient(135deg, #f7ac7f 0%, #ffffff 54%, #98f57f 100%)",padding:"0px",fontWeight:"bold",fontSize:'1.2rem'}}>
       <Container>
         <Navbar.Brand as={Link} to="/" style={{border:"none"}}><img src={Logo1} alt="" width={110} height={60}/></Navbar.Brand>
-        <Navbar.Toggle className='toggle' style={{border:'none'}} onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle className={css.toogle} onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav " >
           <Nav className="me-auto text-black m-auto " >
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/">Home</Nav.Link>

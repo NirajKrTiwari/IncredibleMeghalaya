@@ -3,11 +3,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
 import Footer from "./components/Footer"
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Info from './components/Info';
 import Home from "./Home"
 import About from "./components/About"
-import Category from './components/Category';
 import District from './components/District';
 import ContactForm from './components/ContactForm';
 function App() {

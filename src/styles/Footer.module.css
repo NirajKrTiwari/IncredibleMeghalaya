@@ -85,3 +85,12 @@
     width: 90px;
 }
 }
+
+/* Navbar */
+.toogle
+{
+    border: none;
+}
+.toogle:active{
+    border: none !important;
+}

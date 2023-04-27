@@ -1,6 +1,5 @@
 import css from "../styles/Info.module.css"
 import ReactPlayer from 'react-player'
-import { useState } from 'react';
 import { useEffect } from 'react';
 export default function Info()
 {
