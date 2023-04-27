@@ -35,8 +35,8 @@ export default function Hero() {
         />
         </Link>
         <Carousel.Caption className='mb-3 font-weight-bold'>
-          <h1>The Living Root Bridge</h1>
-          <h2>East Khasi Hills</h2>
+          <h1 style={{fontWeight:'bold',letterSpacing:'4px'}}>The Living Root Bridge</h1>
+          <h2 style={{fontWeight:'bold',letterSpacing:'4px'}}>East Khasi Hills</h2>
         </Carousel.Caption>
       </Carousel.Item >
 
@@ -49,8 +49,8 @@ export default function Hero() {
         />
         </Link>
         <Carousel.Caption className='mb-3 font-weight-bold'>
-        <h1>Umiam Lake</h1>
-          <h2>East Khasi Hills</h2>
+        <h1 style={{fontWeight:'bold',letterSpacing:'4px'}}>Umiam Lake</h1>
+          <h2 style={{fontWeight:'bold',letterSpacing:'4px'}}>East Khasi Hills</h2>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -63,8 +63,8 @@ export default function Hero() {
         />
         </Link>
         <Carousel.Caption className='mb-3 font-weight-bold'>
-        <h1>Krangshuri Falls</h1>
-          <h2>Jaintia Hills</h2>
+        <h1 style={{fontWeight:'bold',letterSpacing:'4px'}}>Krangshuri Falls</h1>
+          <h2 style={{fontWeight:'bold',letterSpacing:'4px'}}>Jaintia Hills</h2>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -80,8 +80,8 @@ export default function Hero() {
   />
   </Link>
   <Carousel.Caption >
-    <h1>The Living Root Bridge</h1>
-    <h3>East Khasi Hills</h3>
+    <h1 style={{fontWeight:'bold',letterSpacing:'3px'}}>The Living Root Bridge</h1>
+    <h3 style={{fontWeight:'bold',letterSpacing:'3px'}}>East Khasi Hills</h3>
   </Carousel.Caption>
 </Carousel.Item >
 
@@ -94,8 +94,8 @@ export default function Hero() {
   />
   </Link>
   <Carousel.Caption>
-  <h1>Umiam Lake</h1>
-    <h3>East Khasi Hills</h3>
+  <h1 style={{fontWeight:'bold',letterSpacing:'3px'}}>Umiam Lake</h1>
+    <h3 style={{fontWeight:'bold',letterSpacing:'3px'}}>East Khasi Hills</h3>
   </Carousel.Caption>
 </Carousel.Item>
 
@@ -109,8 +109,8 @@ export default function Hero() {
   </Link>
 
   <Carousel.Caption>
-  <h1>Krang Suri</h1>
-    <h3>Jaintia Hills</h3>
+  <h1 style={{fontWeight:'bold',letterSpacing:'3px'}}>Krang Suri</h1>
+    <h3 style={{fontWeight:'bold',letterSpacing:'3px'}}>Jaintia Hills</h3>
   </Carousel.Caption>
 </Carousel.Item>
 </Carousel>
