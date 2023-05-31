@@ -155,7 +155,7 @@ export default function District()
                     <div className={css.content} onClick={()=>{setNavigation(value.title) }} >
                         <a >
                             <div className={css.contentOverlay}></div>
-                            <img className={css.contentImage} src={value.image}  alt=""/>
+                            <img className={css.contentImage} src={value.image}  alt="Image Loading..."/>
                                 <div className={`${css.contentDetails} ${css.fadeInBottom}`}>
                                     <h3 className={css.contentTitle}>{value.title}</h3>
                                 </div>

@@ -230,8 +230,8 @@ export default function Info()
             val.title===value2 && (
             <div className={css.Container}>
                 <div className={css.Image}>
-                    <img src={val.image1} alt=""></img>
-                    <img src={val.image2} alt="" ></img>
+                    <img src={val.image1} alt="Image Loading..."></img>
+                    <img src={val.image2} alt="Image Loading..." ></img>
                 </div>
                 <div className={css.Body}>
                 <h2>{val.title}</h2>
