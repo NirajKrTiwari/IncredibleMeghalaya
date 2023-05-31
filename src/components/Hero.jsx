@@ -32,6 +32,7 @@ export default function Hero() {
           className="d-block w-100"
           src={RootBridge}
           alt="First slide"
+          onerror="this.src='alt.png';"
         />
         </Link>
         <Carousel.Caption className='mb-3 font-weight-bold'>
@@ -46,6 +47,7 @@ export default function Hero() {
           className="d-block w-100"
           src={UmaimLake}
           alt="Second slide"
+          onerror="this.src='alt.png';"
         />
         </Link>
         <Carousel.Caption className='mb-3 font-weight-bold'>
@@ -60,6 +62,7 @@ export default function Hero() {
           className="d-block w-100"
           src={KrangSuri}
           alt="Third slide"
+          onerror="this.src='alt.png';"
         />
         </Link>
         <Carousel.Caption className='mb-3 font-weight-bold'>
@@ -91,6 +94,7 @@ export default function Hero() {
     className="d-block w-100"
     src={UmaimLakeM}
     alt="Second slide"
+    onerror="this.src='alt.png';"
   />
   </Link>
   <Carousel.Caption>
@@ -105,6 +109,7 @@ export default function Hero() {
     className="d-block w-100"
     src={KrangSuriM}
     alt="Third slide"
+    onerror="this.src='alt.png';"
   />
   </Link>
 

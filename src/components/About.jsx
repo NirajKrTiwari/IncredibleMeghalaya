@@ -20,7 +20,7 @@ We invite you to explore our website and discover the magic of Meghalaya. Please
                     </p>
                 </div>
                 <div className={css.img}>
-                    <img src={AboultImage} alt="Image Loading..." ></img>
+                    <img src={AboultImage} alt="Img Loading..." onerror="this.src='alt.png';" ></img>
                 </div>
             </div>
         </div>

@@ -82,8 +82,8 @@ export default function Info()
         },
         {
             title: "Rongbangdare Waterfalls",
-            image1: "https://www.travelholicq.com/wp-content/uploads/2021/07/Rongbangdare-Waterfalls-Meghalaya.jpg",
-            image2:"https://www.travelholicq.com/wp-content/uploads/2021/07/Tura-Peak-Meghalaya.jpg",
+            image1: "http://www.incredible-northeastindia.com/images/meghalaya-head.jpg",
+            image2:"https://1.bp.blogspot.com/-L_NHDylnWgg/WgyMyN776JI/AAAAAAAAGY8/-eizKgmRnRUV2u0x9ogiDl5Dp7wKXv2kwCLcBGAs/s1600/2.jpg",
             link: "",
             video:"https://www.youtube.com/watch?v=n4SO_QJ27LE",
             desc:"Cutting across the rugged and forested terrain, the Simsang and its tributaries have created many waterfalls in the Garo Hills region. Rongbangdare Waterfalls is one of the more popular and visually stunning landmarks of this naturally rich region. You will need to negotiate a cool and fresh mountain stream to get a clear view – there is an attractive and sturdy hanging bridge for those who want to avoid getting wet. The bridge also gives you a unique vantage point if you want to take some pictures of the gushing stream and the lush vegetation that cradles the waterfalls."
@@ -230,8 +230,8 @@ export default function Info()
             val.title===value2 && (
             <div className={css.Container}>
                 <div className={css.Image}>
-                    <img src={val.image1} alt="Image Loading..."></img>
-                    <img src={val.image2} alt="Image Loading..." ></img>
+                    <img src={val.image1} alt="Img Loading..." onerror="this.src='alt.png';"></img>
+                    <img src={val.image2} alt="Img Loading..." onerror="this.src='alt.png';" ></img>
                 </div>
                 <div className={css.Body}>
                 <h2>{val.title}</h2>

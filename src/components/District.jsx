@@ -48,7 +48,7 @@ export default function District()
         },
         {
             title:"Rongbangdare Waterfalls",
-            image:"https://www.travelholicq.com/wp-content/uploads/2021/07/Rongbangdare-Waterfalls-Meghalaya.jpg",
+            image:"https://www.onmanorama.com/content/dam/mm/en/travel/beyond-kerala/images/2020/11/1/Nohkalikai-Waterfalls.jpg.transform/845x440/image.jpg",
             category:"Garo Hills"
         },
         {
@@ -155,7 +155,7 @@ export default function District()
                     <div className={css.content} onClick={()=>{setNavigation(value.title) }} >
                         <a >
                             <div className={css.contentOverlay}></div>
-                            <img className={css.contentImage} src={value.image}  alt="Image Loading..."/>
+                            <img className={css.contentImage} src={value.image}  alt="Img Loading..." onerror="this.src='alt.png';"/>
                                 <div className={`${css.contentDetails} ${css.fadeInBottom}`}>
                                     <h3 className={css.contentTitle}>{value.title}</h3>
                                 </div>

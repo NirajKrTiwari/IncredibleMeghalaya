@@ -2,6 +2,7 @@
     background-image: url("../Assets/ElephantFalls.jpg");
     padding: 2rem;
     background-repeat: round;
+    margin-top: 4rem;
 }
 .container
 {
@@ -11,7 +12,6 @@
     align-items: center;
     height: 100%;
     margin: 2rem auto; */
-
     height: auto;
   width: 50%;
   margin: 0rem auto;
@@ -96,7 +96,7 @@ color:orange;
     
 }
 .main{
-    padding: 17vh 10px;
+    padding: 20vh 10px;
 }
 .head
 {

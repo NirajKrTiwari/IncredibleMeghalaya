@@ -4,6 +4,7 @@
     flex-direction:row;
     padding-top:1rem ;
     gap: 2rem;
+
 }
 .info>p{
     text-align: justify;
@@ -11,6 +12,7 @@
 .container
 {
     margin: 3rem 3rem 4.5rem 3rem;
+    margin-top: 6rem;
 
 }
 .img >img{
@@ -50,7 +52,8 @@ justify-content: center;
     }
     .container
     {    
-        margin:8vh 1em;
+        margin:11vh 1em;
+        /* margin-top: 6rem; */
     }
     .info>p
     {
