@@ -1,5 +1,4 @@
-.Container
-{
+.Container {
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
@@ -14,8 +13,26 @@
     height: 100%;
     margin-top: 6rem;
 }
-.Image
+
+.direction {
+    display: block;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 999999999;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    cursor: pointer;
+    scale: "";
+}
+.direction:hover
 {
+    transform: scale(1.1);
+}
+.Image {
     /* width:50%; */
     object-fit: cover;
     border-radius: 5px;
@@ -23,27 +40,27 @@
     justify-content: center;
     align-items: center;
     margin: auto 0;
-    
+
 }
-.Image>img
-{
+
+.Image>img {
     aspect-ratio: 3/2;
     /* width: auto !important; */
     width: 37vw;
     height: auto;
 }
-.Body
-{
+
+.Body {
     object-fit: cover;
     border-radius: 5px;
     /* display: contents; */
     justify-content: center;
     align-items: center;
     /* margin: auto 0; */
-    
+
 }
-.Body>p
-{
+
+.Body>p {
     /* width:50%; */
     /* padding: 0 1rem; */
     text-align: justify;
@@ -51,58 +68,63 @@
     letter-spacing: 0.2rem;
     margin-bottom: 1rem;
 }
-.Body>h2
-{
+
+.Body>h2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
 }
-.button
-{
 
-}
-.Player
-{
+.button {}
+
+.Player {
     /* height: 100%;
     width: 100%; */
     min-height: 225px;
 }
-@media screen and (max-width: 980px){
-    .Container
-    {
+
+@media screen and (max-width: 980px) {
+    .Container {
         flex-direction: column;
         gap: 0;
     }
-    .Image
-    {
+
+    .direction {
+        width: 3rem;
+        height: 3rem;
+        bottom: 4rem;
+        right: 1rem;
+    }
+
+    .Image {
         width: 100%;
         margin: 0;
     }
-    .Image>img
-    {
+
+    .Image>img {
         width: 100%;
     }
-    .Body
-    {
+
+    .Body {
         width: 100%;
         padding: 0;
         font-size: 11px;
     }
-    .Body>p
-{
-    /* width:50%; */
-    /* padding: 0 1rem; */
-    text-align: justify;
-    word-spacing: 0.3 rem;
-    letter-spacing: 0.1rem;
-}
-    .Body>h2
-    {
+
+    .Body>p {
+        /* width:50%; */
+        /* padding: 0 1rem; */
+        text-align: justify;
+        word-spacing: 0.3 rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .Body>h2 {
         font-size: 1.2rem;
         margin: 1rem 0;
     }
-    .Player
-    {
+
+    .Player {
         min-height: 150px;
     }
 }
