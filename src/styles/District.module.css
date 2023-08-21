@@ -15,6 +15,8 @@
 {
     width: 25vw;
     height: 29vh;
+    min-width: 25vw;
+    min-height: 29vh;
 }
 .MainContainer h2{
     font-weight: bold;
@@ -50,6 +52,9 @@ h2
 {
     width: 35vw;
     height: 18vh;
+    min-width: 35vw;
+    min-height: 18vh;
+
 }
 h2
 {
@@ -69,6 +74,8 @@ h2
 {
     width: 75vw;
     height: 22vh;
+    min-width: 75vw;
+    min-height: 22vh;
 }
 .container
 {
