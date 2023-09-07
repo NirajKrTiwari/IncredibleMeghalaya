@@ -28,7 +28,7 @@ export default function Hero() {
     <Carousel activeIndex={index} onSelect={handleSelect} data-interval="1000" fade className={css.Desktop}>
       <Carousel.Item interval={2000} className="hero" >
         <Link to="/Info?Mawlynnong">
-          <img
+          <img 
           className="d-block w-100"
           src={RootBridge}
           alt="First slide"

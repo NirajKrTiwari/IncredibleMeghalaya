@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player'
 import { useEffect } from 'react';
 import Lottie from "lottie-react"
 import location from "../Assets/location.json"
+import Umbyrlein from "../Assets/UmbyrleinFalls.jpg"
 export default function Info()
 {
     const url = window.location.href;
@@ -20,7 +21,7 @@ export default function Info()
         },
         {
             title: "Mawsynram",
-            image1: "https://mybudgettour.com/wp-content/uploads/2021/05/mawsynram-meghalaya-mybudgettour-8.jpg",
+            image1: "https://res.cloudinary.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/hotel-polo-towers/Nohkalikai_near_the_wettest_village_on_Earth-_Mawsynram_",
             image2:"https://tourism.webindia123.com/tourism/hillstations/Mawsynram/main1.jpg",
             link: "https://www.google.com/maps/place/M%C4%81wsynr%C4%81m,+Meghalaya+793113/@25.2980571,91.5771604,16z/data=!3m1!4b1!4m6!3m5!1s0x37509495e5bc131b:0x9db24bbe6c10df77!8m2!3d25.2975363!4d91.5826356!16zL20vMDQ4enJu?entry=ttu",
             video:"https://www.youtube.com/watch?v=_9Ghrppvv5o",
@@ -148,7 +149,7 @@ export default function Info()
         },
         {
             title: "Umbyrlein Falls",
-            image1: "https://www-cdn.time8.in/wp-content/uploads/2019/10/cropped-71895272_2258460487587492_2226805981650616320_n.jpg",
+            image1: Umbyrlein,
             image2:"https://cdn.s3waas.gov.in/s3b86e8d03fe992d1b0e19656875ee557c/uploads/bfi_thumb/2018120569-olwbq5tuzquqsev5grzpdxozl12je01384p53wrs3i.jpg",
             link: "https://www.google.com/maps/place/Umbyrlei%C3%B1+Falls/@25.3353488,92.2170821,17z/data=!3m1!4b1!4m6!3m5!1s0x3750157b73cdbedb:0x9f10eee970d25909!8m2!3d25.3353488!4d92.219657!16s%2Fg%2F11nyds7v0r?entry=ttu",
             video:"https://www.youtube.com/watch?v=ge3kJ3Cb_TY&pp=ygUPVW1ieXJsZWluIEZhbGxz",

@@ -3,6 +3,7 @@ import css from "../styles/District.module.css"
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import Umbyrlein from "../Assets/UmbyrleinFalls.jpg"
 export default function District()
 {
     const data=[
@@ -28,7 +29,7 @@ export default function District()
         },
         {
             title:"Mawsynram",
-            image:"https://mybudgettour.com/wp-content/uploads/2021/05/mawsynram-meghalaya-mybudgettour-8.jpg",
+            image:"https://res.cloudinary.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/hotel-polo-towers/Nohkalikai_near_the_wettest_village_on_Earth-_Mawsynram_",
             category:"East Khasi Hills"
         },
         {
@@ -88,7 +89,7 @@ export default function District()
         },
         {
             title:"Umbyrlein Falls",
-            image:"https://www-cdn.time8.in/wp-content/uploads/2019/10/cropped-71895272_2258460487587492_2226805981650616320_n.jpg",
+            image:Umbyrlein,
             category:"Jaintia Hills"
         },
         {
