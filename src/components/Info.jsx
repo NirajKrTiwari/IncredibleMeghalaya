@@ -47,7 +47,7 @@ export default function Info()
             title: "Elephant Falls",
             image1: "https://upload.wikimedia.org/wikipedia/commons/f/f1/The_Prime_Minister%2C_Shri_Narendra_Modi_at_the_Elephant_Falls%2C_in_Meghalaya_on_May_28%2C_2016.jpg",
             image2:"http://cdn.narendramodi.in/cmsuploads/0.91304200-1464429261-shv-1465.JPG",
-            link: "google.com/maps/place/Elephant+Falls/@25.5360508,91.8199154,17z/data=!3m1!4b1!4m6!3m5!1s0x375087434b55f355:0x4b5b24c54eda8d90!8m2!3d25.5360508!4d91.8224903!16s%2Fg%2F122tpff3?entry=ttu",
+            link: "https://www.google.com/maps/place/Elephant+Falls,+Shillong,+Meghalaya/@25.5360556,91.8199154,17z/data=!3m1!4b1!4m6!3m5!1s0x375087434b55f355:0x4b5b24c54eda8d90!8m2!3d25.5360508!4d91.8224903!16s%2Fg%2F11j7w5c9sb?entry=ttu",
             video:"https://www.youtube.com/watch?v=0iViTFcGI3Y",
             desc:"The waterfall is the result of a mountain stream that drops over multiple levels, scything through the forested slope. The railed walkways begin at the head of the falls and continue to the bottom, ensuring that you not only see the magnificence of the falls from a close distance but also feel the spray of the cool water and the thunderous sound of the flow. The pool at the bottom of the falls is a tranquil spot where you can wade into the clear water at knee-level and get a nice picture with the giant cascade in the background. The Khasi name for Elephant Falls is Kshaid-Lai-Pateng, which roughly refers to the three levels over which the water plunges. The name is rather misleading today – the elephant-shaped rock after which it was named by the British was destroyed in an earthquake more than a hundred years ago. At the entrance to Elephant Falls, there is a collection of stalls selling snacks and souvenirs."
         },
@@ -258,7 +258,7 @@ export default function Info()
                     </div>
                 </div>
                 <div className={css.direction}>
-                     <a href={val.link} target="_blank"><Lottie animationData={location}/></a>
+                     <a href={val.link} target="_blank" rel="noreferrer"><Lottie animationData={location}/></a>
                 </div>
             </div>
             )
